@@ -412,11 +412,13 @@ The following is a list of the currently known authentication levels:
 | Level | Meaning                              |
 | ----- | ------------------------------------ |
 | `0`   | An unprivileged member of the server |
+| `50`  | Server moderator                     |
 | `100` | The owner of the server              |
 
 ### Permissions
 
-| Level | `!ban` | `!ipban` | `!mod` | `!rm` | `!unban` | `!unmod` |
-| ----- | ------ | -------- | ------ | ----- | -------- | -------- |
-| `0`   | No     | No       | No     | No    | No       | No       |
-| `100` | Yes    | Yes      | Yes    | Yes   | Yes      | Yes      |
+| Level | `!ban`    | `!ipban`  | `!mod`    | `!rm` | `!unban`  | `!unmod`  |
+| ----- | --------- | --------- | --------- | ----- | --------- | --------- |
+| `0`   | No        | No        | No        | No    | No        | No        |
+| `50`  | *Unknown* | *Unknown* | *Unknown* | Yes   | *Unknown* | *Unknown* |
+| `100` | Yes       | Yes       | Yes       | Yes   | Yes       | Yes       |
