@@ -399,7 +399,7 @@ The emoji system is still very unknown, but it seems that they are pulled from a
 It seems that at one point it was previously located somewhere else, since the first returns a 301 and the second responds fine.
 
 
-[https://stream.mattkc.com/chat/emotes/]
+https://stream.mattkc.com/chat/emotes/
 
 ![ Status | Method | Domain | File | Initiator | Type | Transfered
 GET | (lock icon) stream.mattkc.com | emotes | jquery-3.6.1.min.js | html | 1.68 kB (raced)
