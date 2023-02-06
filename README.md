@@ -399,8 +399,6 @@ The emoji system is still very unknown, but it seems that they are pulled from a
 
 https://stream.mattkc.com/chat/emotes/
 
-![ Status | Method | Domain | File | Initiator | Type | Transfered | Size | 0ms
-200 | GET | (lock icon) stream.mattkc.com | /chat/emotes/ | jquery-3.6.1.min.js:2 (xhr) | html | 1.65 kB | 7.43kB | 231ms ](images/protocolemoji.png)
 ### Mentions
 
 *TODO*
