@@ -12,7 +12,7 @@ Platapai: ^^^
 janKonku: it's particularly nice for alternate clients
 Breadpudding: That we may or may not be writing as we speak
 janKonku: very little in the way of coding needed to connect to it and have it working
-Breadpudding: Maybe reduce the rate limiting when you aren't streaming?](part1.png)
+Breadpudding: Maybe reduce the rate limiting when you aren't streaming?](images/protocol1.png)
 
 ![MattKC: there is an argument for sending the time with the message, it could be nice even on here to be able to see exactly when a message was sent
 MattKC: it's obviously recorded in the database but isn't sent to the client
@@ -20,7 +20,7 @@ Breadpudding: Wait, there's a database for this?
 Breadpudding: Your poor server lol
 janKonku: did you record the one test packet i sent
 MattKC: yes the chat is backed by a database
-janKonku: should be type 'test' :)](part2.png)
+janKonku: should be type 'test' :)](images/protocol2.png)
 
 ## Connectivity
 
@@ -395,7 +395,9 @@ Minimum Authentication Level: *Unknown*
 
 ### Emoji
 
-*TODO*
+The emoji system is still very unknown, but it seems that they are pulled from an array or table.
+
+https://stream.mattkc.com/chat/emotes/
 
 ### Mentions
 
